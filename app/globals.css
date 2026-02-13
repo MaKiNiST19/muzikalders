@@ -1,26 +1,136 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-navy: #0B2B5B;
+  --color-coral: #FF6B5A;
+  --font-sans: var(--font-primary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #f8fafc;
+  /* Fallback */
+  --foreground: #0B2B5B;
+  --font-primary: 'Inter', sans-serif;
+  /* Placeholder for now, using system fonts via layout later */
+}
+
+/* Custom Utilities */
+@utility text-balance {
+  text-wrap: balance;
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, #f0f9ff 0%, #fff1f2 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  font-family: var(--font-primary), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bubble-color: #f43f5e;
+  /* Rose 500 */
+}
+
+@keyframes bubble-top-bubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 60%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 30%, 65% -10%, 90% 10%;
+  }
+
+  100% {
+    background-position: 0% 50%, 0% 0%, 10% 20%, 20% -20%, 30% 10%, 22% 30%, 50% 20%, 65% -20%, 90% 0%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+@keyframes bubble-bottom-bubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 100%, 20% 100%, 45% 90%, 60% 120%, 75% 100%, 95% 90%, 105% 30%;
+  }
+
+  100% {
+    background-position: 0% 110%, 20% 110%, 45% 100%, 60% 130%, 75% 110%, 95% 100%, 110% 40%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.bubble-btn {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 10;
+  padding: 0.6rem 1.4rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-btn:active {
+  transform: scale(0.97);
+}
+
+.bubble-btn::before,
+.bubble-btn::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 160%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.bubble-btn:hover::before {
+  opacity: 1;
+  top: -80%;
+  background-image:
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, var(--bubble-color) 20%, transparent 35%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 15%, var(--bubble-color) 20%, transparent 35%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: bubble-top-bubbles 0.7s ease forwards;
+}
+
+.bubble-btn:hover::after {
+  opacity: 1;
+  bottom: -80%;
+  background-image:
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 15%, var(--bubble-color) 20%, transparent 35%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--bubble-color) 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: bubble-bottom-bubbles 0.7s ease forwards;
 }
