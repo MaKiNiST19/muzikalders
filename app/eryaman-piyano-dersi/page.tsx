@@ -7,34 +7,121 @@ export const metadata = constructMetadata({
 });
 
 const pageData = {
-    title: 'Piyano Dersi',
+    title: 'Eryaman Piyano Dersi | Birebir Özel Piyano Eğitimi – Zeynep Öğretmen',
     slug: '/eryaman-piyano-dersi',
-    description: 'Her yaş ve seviye için özel piyano eğitimi.',
-    longDescription: 'Piyano, müziğin temelini oluşturan en kapsamlı enstrümandır. İster hobi olarak, ister akademik bir kariyere hazırlık için; size özel programımla piyano çalmayı keyifle öğrenin. Nota okuma, teknik gelişim ve repertuvar çalışmalarını birleştiriyorum.',
+    description: 'Ankara Eryaman’da birebir özel piyano dersleri. Çocuklar, gençler ve yetişkinler için teknik, müzikal ve sınav hazırlık odaklı kişiye özel eğitim.',
+    longDescription: 'Eryaman piyano dersi arayışındaysanız, doğru teknik temelle, sistemli ilerleyen ve bireysel programa dayalı bir eğitim süreci sizin için en sağlıklı başlangıç olacaktır. Ankara Eryaman’da birebir özel piyano dersleri veren Zeynep Öğretmen olarak; çocuklardan yetişkinlere, hobi amaçlı öğrencilerden sınav hazırlık sürecindeki gençlere kadar her seviyede öğrenciyle çalışıyorum. Piyano öğrenmek yalnızca tuşlara basmak değildir. Doğru oturuş, el pozisyonu, kas kontrolü, nota okuma, ritim disiplini ve müzikal ifade birlikte gelişmelidir. Bu nedenle derslerimde hem teknik hem müzikal gelişimi dengeli şekilde ele alıyorum.',
     audiences: [
-        '5 yaş ve üzeri çocuklar (Okul öncesi piyano)',
-        'Okul çağı çocukları ve gençler',
-        'Yetişkin hobi öğrencileri',
-        'Konservatuvar / Bilsem sınavlarına hazırlananlar'
+        '6 yaş ve üzeri çocuklar (Oyun temelli Suzuki yaklaşımı)',
+        'Güzel Sanatlar ve Konservatuvar hazırlık öğrencileri',
+        'Yetişkin hobi öğrencileri (Stresten uzaklaşma ve motivasyon)',
+        'Bilsem ve Müzik Öğretmenliği sınavlarına hazırlananlar'
     ],
+    featuresTitle: 'Neden Eryaman’da Birebir Piyano Dersi?',
+    featuresDescription: 'Eryaman’da grup kursları yerine bireysel özel piyano dersi tercih edilmesinin en büyük avantajı kişisel ilerleme hızına göre planlama yapılabilmesidir. Her öğrencinin motor gelişimi, dikkat süresi, müzikal algısı, hedefi ve çalışma disiplini farklıdır. Bu yüzden ders programı standart değildir. Tamamen kişiye özel hazırlanır.',
     features: [
         'Doğru oturuş ve el pozisyonu',
-        'Temel müzik teorisi ve solfej',
-        'Teknik egzersizler (Hanon, Czerny vb.)',
-        'Klasik, Popüler ve Caz parça çalışmaları',
-        'Duyum ve ritim geliştirme',
-        'Düzenli yıl sonu konser performansları'
+        'Parmak egzersizleri ve teknik güçlendirme',
+        'Teknik etütler (Czerny, Hanon vb.)',
+        'Nota okuma ve deşifre',
+        'Ritim çalışmaları',
+        'Repertuar geliştirme'
     ],
+    programTitle: 'Ders Süreci Nasıl İlerliyor?',
     program: [
-        { title: 'Tanışma ve Seviye Belirleme', desc: 'İlk derste müzikal kulağınızı, ritim duygunuzu ve fiziksel yatkınlığınızı analiz ediyorum.' },
-        { title: 'Temel Teknik ve Nota', desc: 'Nota okumayı ve tuşları tanımayı oyunlaştırarak veya sistematik egzersizlerle öğreniyorum.' },
-        { title: 'Repertuvar Oluşturma', desc: 'Seviyenize uygun, sevdiğiniz parçalardan oluşan bir repertuvar ile motivasyonunuzu yüksek tutuyorum.' },
-        { title: 'İleri Teknik ve Yorum', desc: 'Müzikaliteyi artıracak nüans, pedal kullanımı ve sahne performansı üzerine çalışıyorum.' }
+        { title: 'Seviye Analizi', desc: 'İlk derste mevcut bilgi, ritim kulağı ve hedefler belirlenir.' },
+        { title: 'Teknik Temel', desc: 'Doğru oturuş, bilek kontrolü ve parmak pozisyonu çalışmaları.' },
+        { title: 'Ritim ve Nota', desc: 'Nota okuma ve metronom disiplini ile eş zamanlı ilerleme.' },
+        { title: 'Etüt ve Gam', desc: 'Teknik gelişim için sistemli egzersizler ve gam çalışmaları.' },
+        { title: 'Repertuar', desc: 'Seviyeye uygun, motive edici eser çalışmaları.' }
     ],
     faqs: [
-        { question: 'Piyanom yok, derse başlayabilir miyim?', answer: 'Evet, başlangıç aşamasında evinizde piyano olması şart değildir. Kendi piyanomla ders yapabilir, ilerleyen süreçte benim yönlendirmemle dijital veya akustik piyano edinebilirsiniz.' },
-        { question: 'Piyano öğrenmenin yaşı var mı?', answer: 'Hayır. 5 yaşından itibaren üst yaş sınırı olmaksızın herkes piyano çalmayı öğrenebilir. Yetişkinler için özel hızlandırılmış programlarım mevcuttur.' },
-        { question: 'Haftada kaç saat ders almalıyım?', answer: 'Genellikle haftada 1 ders (45-50 dk) idealdir. İleri seviye veya sınav hazırlık öğrencileri için haftada 2 ders önerilebilir.' }
+        { question: 'Piyano için yaş sınırı var mı?', answer: 'Genellikle 6 yaş ve üzeri önerilir. Üst yaş sınırı yoktur, yetişkinler de her yaşta başlayabilir.' },
+        { question: 'Evimde piyano yoksa ne yapmalıyım?', answer: 'Başlangıç için 61 veya 88 tuşlu, tuş hassasiyetli bir dijital piyano yeterlidir. İlk derste bütçenize uygun model önerisi yapıyorum.' },
+        { question: 'Nota bilmek şart mı?', answer: 'Hayır. Ders süreci içinde notayı sistemli ve uygulamalı olarak öğreniyoruz.' },
+        { question: 'Haftada kaç ders alınmalı?', answer: 'Başlangıç için haftada 1 ders idealdir. İleri seviye veya sınav hazırlığı için sıklık artırılabilir.' },
+        { question: 'Günde ne kadar çalışmalıyım?', answer: 'Günde 15–30 dakika düzenli tekrar yeterlidir. Düzenli çalışma, uzun süreli seyrek çalışmadan daha verimlidir.' },
+        { question: 'Kaç ayda bir eser çalabilirim?', answer: 'Düzenli çalışmayla 2–3 ay içinde temel düzeyde parçalar çalmaya başlayabilirsiniz.' },
+        { question: 'Çocuklar için ders süresi ne kadar?', answer: 'Çocuklar için odak süresine göre genellikle 40–50 dakika olarak planlanmaktadır.' },
+        { question: 'Online ders var mı?', answer: 'Ağırlıklı olarak Eryaman’da yüz yüze bireysel dersler yapmaktayım.' },
+        { question: 'Sınav hazırlık programı ne kadar sürer?', answer: 'Öğrencinin seviyesine ve hedefine göre 6–12 ay veya daha uzun sürebilir.' },
+        { question: 'Yazın dersler devam ediyor mu?', answer: 'Evet, yaz döneminde de ders programı devam etmektedir.' }
+    ],
+    sidebarImage: '/piyano-ozel-ders-eryaman.jpg',
+    extraContent: [
+        {
+            title: 'Çocuklar İçin Piyano Dersi (6+ Yaş)',
+            description: 'Eryaman’da çocuklar için piyano dersi verirken pedagojik yaklaşım çok önemlidir. 6 yaş ve üzeri çocuklarla çalışırken oyun temelli öğrenme, ritim duygusu geliştirme, kas kontrolü kazandırma ve nota algısını eğlenceli yöntemlerle öğretme öncelikli hedeflerdir. Suzuki yaklaşımından ilham alan sistemli çalışma modeli ile çocuk öğrenciler enstrümanla bağ kurar, düzenli çalışma alışkanlığı edinir ve sahne deneyimine hazırlanır.'
+        },
+        {
+            title: 'Gençler ve Sınav Hazırlık (Güzel Sanatlar / Konservatuvar)',
+            description: 'Piyano, sınav hazırlık sürecinde kritik bir enstrümandır. Özellikle Güzel Sanatlar Liseleri, Bilsem müzik bölümü, Konservatuvar sınavları ve Müzik öğretmenliği bölümleri için hazırlanan öğrencilerle daha yoğun ve disiplinli bir program uygulanır.',
+            items: [
+                'Teknik etütler (Czerny, Hanon vb.)',
+                'Arpej ve gam çalışmaları',
+                'Deşifre becerisi',
+                'Teori ve armoni temeli',
+                'Performans hazırlığı'
+            ]
+        },
+        {
+            title: 'Yetişkinler İçin Piyano Dersi',
+            description: '“Piyano öğrenmek için geç mi kaldım?” sorusu yetişkin öğrencilerden sık gelir. Hayır, geç değil. 30, 40 hatta 50 yaş üstü öğrencilerimle çalışıyorum. Yetişkin derslerinde iş stresinden uzaklaşma, hedef şarkılar üzerinden motivasyon, nota bilgisi kazanma ve kendi temposunda ilerleme ön plandadır. Yetişkin öğrenciler genellikle düzenli çalışma disiplinine sahip oldukları için hızlı ilerleyebilirler.'
+        },
+        {
+            title: 'Piyano Derslerinde Teori ve Solfej',
+            description: 'Piyano eğitimi yalnızca çalma değildir. Sağlam bir müzikal altyapı için solfej, duyum çalışmaları, bona ve temel armoni entegre edilir.'
+        },
+        {
+            title: 'Yaz Konserleri ve Sahne Deneyimi',
+            description: 'Yaz aylarına doğru öğrenci yoğunluğuna bağlı olarak küçük konser organizasyonları yapılmaktadır. Bu etkinlikler sahne özgüveni kazandırır, performans deneyimi sağlar ve özellikle çocuk ve genç öğrenciler için motivasyonu artırır.'
+        },
+        {
+            title: 'Neden Zeynep Öğretmen ile Piyano Dersi?',
+            items: [
+                '12 yaşından beri müzikle ilgileniyor',
+                'Ankara Müzik ve Güzel Sanatlar Üniversitesi mezunu',
+                '7 yıldır piyano eğitimi veriyor',
+                '20’ye yakın aktif özel ders öğrencisi',
+                '%99 hazırlık başarısı',
+                'Suzuki yaklaşımı ve bireysel program sistemi',
+                '6–58 yaş arası öğrencilerle tecrübe'
+            ]
+        },
+        {
+            title: 'Eryaman’da Piyano Öğrenmek',
+            description: 'Eryaman piyano dersi arıyorsanız, teknik ve müzikal gelişimi birlikte ele alan bir sistemle ilerlemek kalıcı sonuç sağlar. Piyano; çocuklar için disiplin ve koordinasyon, gençler için akademik hazırlık, yetişkinler için zihinsel rahatlama ve ileri seviye öğrenciler için profesyonel gelişim anlamına gelebilir. Doğru yönlendirme, düzenli çalışma ve bireysel programla bu süreç hem verimli hem keyifli olur.'
+        }
+    ],
+    testimonials: [
+        {
+            id: 1,
+            name: 'Elif Zehra 7-8 yaş velisi Yasemin hanım',
+            role: 'Veli',
+            comment: 'Yaklasik bir bucuk yildir Zeynep Hocadan piyano dersi aliyoruz. Kendisi cok yetkin ve alaninda cok iyi bir ogretmen. Ayni zamanda ogrencileriyle cok guzel iletisim kuruyor. Ayrica derslerde sadece piyano eserleri ogretmekle kalmiyor muzik teorisi egitimi de vererek ogrencinin teknik bilgisini de gelistiriyor. Bu yonuyle de piyadadaki diger hocalardan ayrisiyor. Kendisine cok tesekkur ediyoruz.',
+            rating: 5
+        },
+        {
+            id: 2,
+            name: 'Asya/ Arya 5-6 yaş velisi Sezgi hanım',
+            role: 'Veli',
+            comment: 'Zeynep öğretmenle ikiz kızlarımın piyano dersleri sayesinde tanıştık. Kızlarımın piyanoyu sevmesinin sebebidir. Çocuklarla pozitif iletişimi, canayakınlığı ve anlayışı için teşekkür ediyorum',
+            rating: 5
+        },
+        {
+            id: 3,
+            name: 'Duru 8-9 yaş velisi Umut Bey',
+            role: 'Veli',
+            comment: "Zeynep Hocam ilk okul çağındaki çocuklarınızın gitar ya da piyanoya başlaması aşamasında karşınıza çıkacak en doğru öğretmendir diyebilirim. Malumunuz, çocuklar çabuk sıkılırlar..(Benim kızımın olimpiyat madalyası var bu konuda😅) Zeynep Hocam derslerde ( ki çok kez şahit oldum :) sıkılan öğrenciyi tekrar motive etmek için hep bir eğlence katar. Dersin her dk'sı verimli geçsin ister. Ayrıca derste miniklere hayata dair bir anne bir abla gibi hayata dair tavsiyelerde de bulunur ki...inanın enstrüman dersi kadar değerlidir. Zeynep Hocamla tanışınca miniğinizi emanet edecek en doğru yerde olduğunuzu anlarsınız🙏🏻 Not: Based on a true story 😄",
+            rating: 5
+        },
+        {
+            id: 4,
+            name: 'Elif Neva 7-8 yaş velisi Serap hanım',
+            role: 'Veli',
+            comment: 'Piyano öğrenme konusunda isteksiz olan kızıma dersi eğlenceli hale getirerek öğrenme yolculuğunda eşlik eden Zeynep hocamıza teşekkür ediyorum.',
+            rating: 5
+        }
     ]
 };
 

@@ -35,7 +35,8 @@ const pageData = {
         { question: 'Yan flüt çalmak için akciğer kapasitesi çok mu önemli?', answer: 'Normal bir sağlık durumuna sahip herkes flüt çalabilir. Önemli olan akciğer kapasitesi değil, nefesi ekonomik ve doğru kullanma tekniğidir (Diyafram nefesi).' },
         { question: 'Hangi marka flüt almalıyım?', answer: 'Başlangıç seviyesinde Yamaha, Pearl veya Trevor James gibi markaların giriş modelleri önerilir. Almadan önce mutlaka bana danışmanızı tavsiye ederim.' },
         { question: 'Diş telleri flüt çalmaya engel mi?', answer: 'Hayır, diş teli kullanan birçok flüt öğrencimiz mevcuttur. Sadece başlangıçta alışma süreci gerekebilir.' }
-    ]
+    ],
+    sidebarImage: '/yan-flut-ozel-ders-eryaman.jpg'
 };
 
 export default function FlutePage() {

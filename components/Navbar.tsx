@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { Menu, X, Music } from 'lucide-react';
+import { Menu, X, Music, Instagram } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 const navigation = [
@@ -66,6 +66,14 @@ export default function Navbar() {
                                 {item.name}
                             </Link>
                         ))}
+                        <Link
+                            href="https://www.instagram.com/muzikalmila/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-slate-600 hover:text-rose-500 transition-colors ml-4 mr-2"
+                        >
+                            <Instagram className="w-5 h-5" />
+                        </Link>
                         <Link
                             href="/iletisim"
                             className="bubble-btn bg-slate-900 text-white px-5 py-2.5 rounded-lg text-sm font-medium shadow-lg shadow-slate-900/20 active:scale-95 transition-transform"
