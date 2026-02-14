@@ -2,38 +2,71 @@ import { constructMetadata } from '@/lib/seo';
 import LessonPageTemplate from '@/components/templates/LessonPage';
 
 export const metadata = constructMetadata({
-    title: 'Bilsem Müzik Hazırlık Kursu Eryaman | Özel Yetenek Sınavı',
-    description: 'Bilsem müzik alanı yetenek sınavlarına hazırlık. Eryaman bölgesinde uzman eğitmenlerle kulak, ritim ve müzikal hafıza eğitimi.',
+    title: 'Eryaman Bilsem Müzik Hazırlık | Bilsem Müzik Yetenek Sınavı Hazırlık',
+    description: 'Ankara Eryaman Bilsem müzik hazırlık. Ritim, melodi tekrar, kulak eğitimi ve müzikal algı çalışmaları ile sistemli sınav hazırlığı.',
 });
 
 const pageData = {
-    title: 'Bilsem Müzik Hazırlık',
+    title: 'Eryaman Bilsem Müzik Hazırlık | Bilsem Müzik Yetenek Sınavı Hazırlık Programı – Zeynep Öğretmen',
     slug: '/bilsem-muzik-hazirlik',
-    description: 'Geleceğin dâhilerini BİLSEM sınavlarına profesyonelce hazırlıyorum.',
-    longDescription: 'BİLSEM Müzik alanı sınavları, öğrencilerin müzikal potansiyelini (kulak, ritim, bellek) ölçen aşamalardan oluşur. Zeynep Öğretmen rehberliğinde, sınav formatına %100 uyumlu simülasyonlar ve kulak eğitimi ile öğrencinizin başarısını garantiliyorum.',
+    description: 'Eryaman Bilsem müzik hazırlık. Ritim algısı, melodi tekrar ve kulak eğitimi ile sistemli sınav hazırlığı. Zeynep Öğretmen ile birebir özel ders.',
+    longDescription: 'Eryaman Bilsem müzik hazırlık arayışındaysanız, çocuğunuzun müzik yeteneğini doğru yönlendirmek ve Bilsem müzik sınavına sistemli bir şekilde hazırlanmasını istiyorsunuz demektir. Bilim ve Sanat Merkezleri (Bilsem), özel yetenekli öğrencileri belirlemek için uygulanan sınavlarda müzik alanında ciddi bir değerlendirme süreci yürütür. Bu süreçte yalnızca şarkı söylemek ya da enstrüman çalmak yeterli değildir. Kulak, ritim, tekrar ve müzikal algı birlikte değerlendirilir. Ankara Eryaman’da birebir Bilsem müzik hazırlık dersleri vererek öğrencileri sınav formatına uygun şekilde planlı bir programa dahil ediyorum.',
     audiences: [
-        'BİLSEM müzik alanı adayları (1., 2. ve 3. sınıf öğrencileri)',
-        'Üstün yetenekli çocukların keşfi ve yönlendirilmesi',
-        'Akademik müzik eğitimine erken yaşta başlamak isteyenler'
+        'Müzik alanında yetenekli olduğu düşünülen öğrenciler',
+        'Ritim ve melodi tekrarında başarılı çocuklar',
+        'Kulak algısı güçlü öğrenciler',
+        'Güzel Sanatlar Lisesi hedefleyen çocuklar'
     ],
+    featuresTitle: 'Bilsem Müzik Sınavında Neler Soruluyor?',
+    featuresDescription: 'Bilsem müzik alanı değerlendirmesinde genellikle:',
     features: [
-        'Tek ses, çift ses, üç ses ve dört ses duyum çalışmaları',
-        'Melodik ve ritmik bellek (Hafıza) güçlendirme',
-        'Ritmik tekrar ve vuruş doğruluğu çalışmaları',
-        'Sınav simülasyonları ve teknik ipuçları',
-        'Kaygı yönetimi ve sınav motivasyonu',
-        'Bireysel yetenek analizi ve enstrüman yönlendirme'
+        'Ritim tekrar etme',
+        'Melodi tekrar etme',
+        'Ses aralığı algılama',
+        'Ton farkı ayırt etme',
+        'Duyum (kulak) çalışmaları'
     ],
+    programTitle: 'Bilsem Hazırlık Süreci Nasıl Planlanır?',
     program: [
-        { title: 'Yetenek Analizi', desc: 'Öğrencinin mevcut duyum seviyesini ölçüyor ve zayıf olduğu alanlara odaklanıyorum.' },
-        { title: 'Yoğun Kulak Eğitimi', desc: 'Sınavın en kritik parçası olan çok sesli duyum üzerine her hafta sistemli çalışma.' },
-        { title: 'Hafıza ve Ritim Tekrarı', desc: 'Duyulan melodiyi ve ritmi hatasız geri verme pratikleri yapıyorum.' },
-        { title: 'Sınav Denemeleri', desc: 'Gerçek sınav ortamı yaratarak öğrencinin heyecanını yenmesini ve formatı ezberlemesini sağlıyorum.' }
+        { title: 'Seviye Analizi', desc: 'Ritim algısı, ses tekrar kabiliyeti, dikkat süresi ve işitsel hafıza değerlendirilir.' },
+        { title: 'Ritim Çalışmaları', desc: 'El çırparak tekrar, metronom eşliğinde ölçü çalışmaları ve Bona temelli ritim egzersizleri.' },
+        { title: 'Melodi ve Kulak Eğitimi', desc: 'Kısa melodi tekrarları, aralık tanıma ve ton farkı ayırt etme çalışmaları.' },
+        { title: 'Odak ve Sınav Psikolojisi', desc: 'Kısa süreli dikkat çalışmaları, deneme formatında uygulamalar ve sınav provası.' }
     ],
     faqs: [
-        { question: 'Sınava ne kadar süre kala başlanmalı?', answer: 'Genellikle en az 3-4 ay önceden başlamak kulak gelişiminin oturması için önemlidir.' },
-        { question: 'Başarı oranınız nedir?', answer: 'Doğru metodoloji ile hazırlanan öğrencilerimde başarı oranım %95 ve üzeridir.' },
-        { question: 'Sınav sadece duyum mu?', answer: 'İkinci aşama mülakattır; burada öğrencinin ritim, melodi ve genel müzikal yatkınlığı puanlanır.' }
+        { question: 'Bilsem müzik sınavı zor mu?', answer: 'Hazırlıksız girildiğinde zor olabilir. Sistemli çalışma ile başarı oranı artar.' },
+        { question: 'Kaç ay önceden başlanmalı?', answer: 'Genellikle 4–8 ay önceden başlanması önerilir.' },
+        { question: 'Çocuğum nota bilmiyor, sorun olur mu?', answer: 'Hayır. Bilsem sınavı nota bilgisi zorunlu değildir.' },
+        { question: 'Haftada kaç ders alınmalı?', answer: 'Genellikle haftada 1 ders yeterlidir.' },
+        { question: 'Sınavda en önemli bölüm hangisi?', answer: 'Ritim ve melodi tekrar bölümleri kritiktir.' },
+        { question: 'Evde nasıl çalışılmalı?', answer: 'Kısa ama düzenli tekrarlar yapılmalıdır.' },
+        { question: 'Sadece şarkı ezberlemek yeterli mi?', answer: 'Hayır. Kulak ve ritim eğitimi şarttır.' }
+    ],
+    sidebarImage: '/bilsem-muzik-hazirlik.jpg',
+    extraContent: [
+        {
+            title: 'Eryaman’da Birebir Bilsem Hazırlık Neden Önemli?',
+            description: 'Grup ortamında her çocuğun işitsel gelişim hızı farklıdır. Birebir hazırlıkta hatalar anında düzeltilir, kişisel zayıf alanlar belirlenir ve süreç hızlandırılır. Eryaman merkezli çalışmakla birlikte çevre ilçelerden de öğrenciler gelmektedir.'
+        },
+        {
+            title: 'Bilsem Hazırlık ile Enstrüman Eğitimi Birlikte Olmalı mı?',
+            description: 'Evet, çoğu zaman enstrüman eğitimi destekleyici olur. Özellikle Piyano Dersi ve Gitar Dersi çocuk öğrencilerin ritim ve nota algısını güçlendirir.'
+        },
+        {
+            title: 'Neden Zeynep Öğretmen ile Bilsem Hazırlık?',
+            items: [
+                'Ankara Müzik ve Güzel Sanatlar Üniversitesi mezunu',
+                '12 yaşından beri müzikle iç içe',
+                'Hazırlık öğrencilerinde %99 başarı oranı',
+                'Bilsem, Bilkent yarı zamanlı konservatuvar ve Güzel Sanatlar Liselerine hazırlık deneyimi',
+                'Bireysel program sistemi',
+                '6 yaş ve üzeri öğrencilerle çalışma deneyimi'
+            ]
+        },
+        {
+            title: 'Eryaman Bilsem Müzik Hazırlık ile Güvenli Bir Başlangıç',
+            description: 'Bilsem müzik sınavı, çocuğunuzun yeteneğini doğru değerlendirmek için önemli bir adımdır. Bu süreçte sistemli, sabırlı ve teknik temelli bir çalışma büyük fark yaratır. Eryaman’da birebir Bilsem müzik hazırlık programı ile ritim algısı gelişir, kulak eğitimi güçlenir, sınav özgüveni artar ve akademik müzik altyapısı oluşur.'
+        }
     ]
 };
 

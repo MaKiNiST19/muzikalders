@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Müzikal Ders | Eryaman Özel Müzik Dersi",
   description: "Ankara Eryaman bölgesinde piyano, gitar, yan flüt ve şan dersleri.",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({

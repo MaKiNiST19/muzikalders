@@ -70,7 +70,7 @@ export default function Navbar() {
                             href="https://www.instagram.com/muzikalmila/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-slate-600 hover:text-rose-500 transition-colors ml-4 mr-2"
+                            className="text-slate-600 hover:text-rose-500 transition-colors ml-4 mr-6"
                         >
                             <Instagram className="w-5 h-5" />
                         </Link>
