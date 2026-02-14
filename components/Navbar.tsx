@@ -70,6 +70,7 @@ export default function Navbar() {
                             href="https://www.instagram.com/muzikalmila/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Instagram"
                             className="text-slate-600 hover:text-rose-500 transition-colors ml-4 mr-6"
                         >
                             <Instagram className="w-5 h-5" />
@@ -87,6 +88,7 @@ export default function Navbar() {
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
+                            aria-label="Menüyü aç/kapat"
                             className="text-slate-800 hover:text-rose-500 focus:outline-none"
                         >
                             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}

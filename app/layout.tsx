@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({
   variable: "--font-primary",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {

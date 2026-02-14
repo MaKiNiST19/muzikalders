@@ -29,8 +29,8 @@ export default function Hero() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <Link
                                 href="/iletisim"
-                                className="bubble-btn inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-lg text-white bg-rose-500 shadow-lg shadow-rose-500/30 active:scale-95 transition-transform w-full sm:w-auto"
-                                style={{ '--bubble-color': '#f43f5e' } as React.CSSProperties}
+                                className="bubble-btn inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-lg text-white bg-rose-600 shadow-lg shadow-rose-500/30 active:scale-95 transition-transform w-full sm:w-auto"
+                                style={{ '--bubble-color': '#e11d48' } as React.CSSProperties}
                             >
                                 Ücretsiz Ön Görüşme
                                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -53,6 +53,7 @@ export default function Hero() {
                                 alt="Almila Zeynep Müzik Öğretmeni"
                                 fill
                                 priority
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                             />
                             {/* Overlay Gradient for depth */}

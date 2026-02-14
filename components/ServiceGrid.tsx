@@ -59,7 +59,7 @@ export default function ServiceGrid() {
 
             <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-sm font-semibold text-rose-500 uppercase tracking-widest mb-3">EĞİTİM PROGRAMLARIMIZ</h2>
+                    <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-widest mb-3">EĞİTİM PROGRAMLARIMIZ</h2>
                     <h3 className="text-4xl font-bold text-slate-900 mb-6 font-display text-balance">
                         Hangi Enstrümanla <span className="text-indigo-600">Başlamak İstersin?</span>
                     </h3>
@@ -106,8 +106,9 @@ export default function ServiceGrid() {
                                 <div className="z-10 pointer-events-auto">
                                     <Link
                                         href={lesson.slug}
-                                        className="bubble-btn inline-block bg-rose-500 text-white px-3 py-1.5 rounded-lg text-[11px] font-bold shadow-lg shadow-rose-950/20 active:scale-95 transition-transform"
-                                        style={{ '--bubble-color': '#f43f5e' } as React.CSSProperties}
+                                        aria-label={`${lesson.title} hakkında detaylı bilgi`}
+                                        className="bubble-btn inline-block bg-rose-600 text-white px-3 py-1.5 rounded-lg text-[11px] font-bold shadow-lg shadow-rose-950/20 active:scale-95 transition-transform"
+                                        style={{ '--bubble-color': '#e11d48' } as React.CSSProperties}
                                     >
                                         Detaylı Bilgi
                                     </Link>

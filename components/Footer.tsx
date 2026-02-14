@@ -95,10 +95,10 @@ export default function Footer() {
                     <div>
                         <h3 className="text-white font-semibold text-lg mb-6">Beni Takip Edin</h3>
                         <div className="flex space-x-4 mb-8">
-                            <a href="#" className="bg-slate-800 p-2 rounded-lg hover:bg-rose-500 hover:text-white transition-colors">
+                            <a href="#" aria-label="Instagram" className="bg-slate-800 p-2 rounded-lg hover:bg-rose-500 hover:text-white transition-colors">
                                 <Instagram className="h-5 w-5" />
                             </a>
-                            <a href="#" className="bg-slate-800 p-2 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
+                            <a href="#" aria-label="Facebook" className="bg-slate-800 p-2 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
                                 <Facebook className="h-5 w-5" />
                             </a>
                         </div>

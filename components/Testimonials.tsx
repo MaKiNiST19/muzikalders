@@ -80,7 +80,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
                                     {t.name.charAt(0)}
                                 </div>
                                 <div>
-                                    <h4 className="text-sm font-semibold text-slate-900">{t.name}</h4>
+                                    <h3 className="text-sm font-semibold text-slate-900">{t.name}</h3>
                                     <div className="flex text-amber-400 text-xs">
                                         {'★'.repeat(t.rating)}
                                     </div>
