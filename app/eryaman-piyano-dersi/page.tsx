@@ -121,6 +121,27 @@ const pageData = {
             role: 'Veli',
             comment: 'Piyano öğrenme konusunda isteksiz olan kızıma dersi eğlenceli hale getirerek öğrenme yolculuğunda eşlik eden Zeynep hocamıza teşekkür ediyorum.',
             rating: 5
+        },
+        {
+            id: 5,
+            name: 'Nursare 15-16 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Zeynep Hoca ile yaklaşık 6 aydır piyano dersi yapıyoruz ve bu süreçte sıfırdan başlayarak gerçekten güzel bir ilerleme kaydettik. Derslerde ezbere dayalı bir öğretim yerine, notaları, teknikleri ve püf noktalarını anlamamı sağlayan bir yöntem izliyor. Bu sayede sadece parçaları çalmakla kalmayıp, müziği gerçekten kavramayı adım adım öğreniyorum. Derslerde enerjik ve motive edici bir yaklaşımı var. Yumuşak bir üslubu olmasına rağmen disiplinli bir çalışma ortamı sağlıyor. Zorlandığım noktalarda sabırla yardımcı oluyor ve gerektiğinde kendisi bizzat göstererek konuyu daha iyi anlamamı sağlıyor. Beraber ders yaparken kendimi rahat hissediyorum. En önemlisi, piyanonun sadece tuşlara basmaktan ibaret olmadığını; müziğin duyguya ve ruha hitap eden bir yönü olduğunu bana öğretti. Bu nedenle kendisinden ders aldığım için çok memnunum. Teşekkürler Zeynep Hocam…',
+            rating: 5
+        },
+        {
+            id: 6,
+            name: 'Batuhan bey 25-26 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Piyano için geç kaldığımı düşünmüştüm zeynep hocanın ders verme anlayışı beni korkularımdan uzaklaştırdı ve şuan piyanoya aşık olduğumu rahatlıkla söyleyebilirim gözü kapalı herkese rahatlıkla önerebileceğim müthiş bi öğretmendir',
+            rating: 5
+        },
+        {
+            id: 8,
+            name: 'Nihan Hanım 35 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Zeynep hocam çok tatlı ve anlayışlı,  yaş olarak  biraz geç kaldım ve artık benden olmaz derken bile bana inandı, şimdi piyano çalmaya başladım. Bir çocukluk hayalimi gerçekleştirdim Zeynep hocam sayesinde.Özverili anlatılışı ve sabrı  için ayrıca teşekkür ediyorum.🥰🌺',
+            rating: 5
         }
     ]
 };

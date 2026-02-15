@@ -36,6 +36,41 @@ const realTestimonials: TestimonialItem[] = [
         role: 'Veli',
         comment: 'Piyano öğrenme konusunda isteksiz olan kızıma dersi eğlenceli hale getirerek öğrenme yolculuğunda eşlik eden Zeynep hocamıza teşekkür ediyorum.',
         rating: 5
+    },
+    {
+        id: 5,
+        name: 'Nursare 15-16 yaş öğrenci',
+        role: 'Öğrenci',
+        comment: 'Zeynep Hoca ile yaklaşık 6 aydır piyano dersi yapıyoruz ve bu süreçte sıfırdan başlayarak gerçekten güzel bir ilerleme kaydettik. Derslerde ezbere dayalı bir öğretim yerine, notaları, teknikleri ve püf noktalarını anlamamı sağlayan bir yöntem izliyor. Bu sayede sadece parçaları çalmakla kalmayıp, müziği gerçekten kavramayı adım adım öğreniyorum. Derslerde enerjik ve motive edici bir yaklaşımı var. Yumuşak bir üslubu olmasına rağmen disiplinli bir çalışma ortamı sağlıyor. Zorlandığım noktalarda sabırla yardımcı oluyor ve gerektiğinde kendisi bizzat göstererek konuyu daha iyi anlamamı sağlıyor. Beraber ders yaparken kendimi rahat hissediyorum. En önemlisi, piyanonun sadece tuşlara basmaktan ibaret olmadığını; müziğin duyguya ve ruha hitap eden bir yönü olduğunu bana öğretti. Bu nedenle kendisinden ders aldığım için çok memnunum. Teşekkürler Zeynep Hocam…',
+        rating: 5
+    },
+    {
+        id: 6,
+        name: 'Batuhan bey 25-26 yaş öğrenci',
+        role: 'Öğrenci',
+        comment: 'Piyano için geç kaldığımı düşünmüştüm Zeynep hocanın ders verme anlayışı beni korkularımdan uzaklaştırdı ve şuan piyanoya aşık olduğumu rahatlıkla söyleyebilirim gözü kapalı herkese rahatlıkla önerebileceğim müthiş bi öğretmendir.',
+        rating: 5
+    },
+    {
+        id: 7,
+        name: 'Elif 11-12 yaş velisi Hatice hanım',
+        role: 'Veli',
+        comment: 'Zeynep Hanım ile internet üzerinden bir ilanı vasıtasıyla tanıştık. Daha ilk dersten sıcaklığı ve samimiyeti kızımın motivasyonunu artırdı. İşindeki ustalığı da göz dolduruyordu. Zamanla ailemizden biri gibi oldu. Derslerin çok keyifli geçtiğini görüyordum. Kızımdaki ilerleme de bizi çok mutlu etti. Kendisi hem bir abla hem de harika bir müzik öğretmeni oldu kızıma. Teşekkür ediyoruz.',
+        rating: 5
+    },
+    {
+        id: 8,
+        name: 'Nihan Hanım 35 yaş öğrenci',
+        role: 'Öğrenci',
+        comment: 'Zeynep hocam çok tatlı ve anlayışlı,  yaş olarak  biraz geç kaldım ve artık benden olmaz derken bile bana inandı, şimdi piyano çalmaya başladım. Bir çocukluk hayalimi gerçekleştirdim Zeynep hocam sayesinde.Özverili anlatılışı ve sabrı  için ayrıca teşekkür ediyorum.🥰🌺',
+        rating: 5
+    },
+    {
+        id: 9,
+        name: 'Sudenur 18-19 yaş öğrenci',
+        role: 'Öğrenci',
+        comment: 'Zeynep hocayla 16 yaşımda tanıştım. Yetenek sınavına hazırlanma sürecimde kendisiyle birlikte çalışma fırsatı buldum. Bu süreçte bana yalnızca teknik anlamda değil; müzik teorisi, çalgı çalışması ve sınav psikolojisi açısından da büyük destek oldu. Alanındaki birikimi ve disiplinli yaklaşımı sayesinde sınava hem donanımlı hem de özgüvenli bir şekilde hazırlanmamı sağladı ve sınavı kazanmamda önemli bir rol oynadı. Kendisi, benim için sadece bir öğretmen değil; aynı zamanda bir abla gibi yanımda olan, motivasyonumu ve özgüvenimi geliştirmeme katkı sağlayan çok kıymetli bir rehber oldu.',
+        rating: 5
     }
 ];
 

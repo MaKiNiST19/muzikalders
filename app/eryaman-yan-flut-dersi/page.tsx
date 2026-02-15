@@ -36,7 +36,16 @@ const pageData = {
         { question: 'Hangi marka flüt almalıyım?', answer: 'Başlangıç seviyesinde Yamaha, Pearl veya Trevor James gibi markaların giriş modelleri önerilir. Almadan önce mutlaka bana danışmanızı tavsiye ederim.' },
         { question: 'Diş telleri flüt çalmaya engel mi?', answer: 'Hayır, diş teli kullanan birçok flüt öğrencimiz mevcuttur. Sadece başlangıçta alışma süreci gerekebilir.' }
     ],
-    sidebarImage: '/yan-flut-ozel-ders-eryaman.jpg'
+    sidebarImage: '/yan-flut-ozel-ders-eryaman.jpg',
+    testimonials: [
+        {
+            id: 1,
+            name: 'Elif 11-12 yaş velisi Hatice hanım',
+            role: 'Veli',
+            comment: 'Zeynep Hanım ile internet üzerinden bir ilanı vasıtasıyla tanıştık. Daha ilk dersten sıcaklığı ve samimiyeti kızımın motivasyonunu artırdı. İşindeki ustalığı da göz dolduruyordu. Zamanla ailemizden biri gibi oldu. Derslerin çok keyifli geçtiğini görüyordum. Kızımdaki ilerleme de bizi çok mutlu etti. Kendisi hem bir abla hem de harika bir müzik öğretmeni oldu kızıma. Teşekkür ediyoruz.',
+            rating: 5
+        }
+    ]
 };
 
 export default function FlutePage() {

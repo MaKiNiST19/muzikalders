@@ -79,6 +79,15 @@ const pageData = {
             title: 'Eryaman Konservatuvar Hazırlık ile Sistemli İlerleyin',
             description: 'Konservatuvar hedefi ciddi bir disiplini gerektirir. Doğru teknik, güçlü kulak, sağlam teori bilgisi ve performans hazırlığı birlikte ilerlediğinde başarı şansı artar. Eryaman’da birebir konservatuvar hazırlık programı ile teknik gelişiminiz hızlanır, sınav özgüveniniz artar ve akademik hedefinize sistemli şekilde ilerlersiniz.'
         }
+    ],
+    testimonials: [
+        {
+            id: 1,
+            name: 'Sudenur 18-19 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Zeynep hocayla 16 yaşımda tanıştım. Yetenek sınavına hazırlanma sürecimde kendisiyle birlikte çalışma fırsatı buldum. Bu süreçte bana yalnızca teknik anlamda değil; müzik teorisi, çalgı çalışması ve sınav psikolojisi açısından da büyük destek oldu. Alanındaki birikimi ve disiplinli yaklaşımı sayesinde sınava hem donanımlı hem de özgüvenli bir şekilde hazırlanmamı sağladı ve sınavı kazanmamda önemli bir rol oynadı. Kendisi, benim için sadece bir öğretmen değil; aynı zamanda bir abla gibi yanımda olan, motivasyonumu ve özgüvenimi geliştirmeme katkı sağlayan çok kıymetli bir rehber oldu.',
+            rating: 5
+        }
     ]
 };
 

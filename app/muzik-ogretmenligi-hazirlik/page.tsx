@@ -71,6 +71,15 @@ const pageData = {
             title: 'Eryaman Müzik Öğretmenliği Hazırlık ile Hedefinize Ulaşın',
             description: 'Müzik öğretmenliği hedefi; teknik bilgi, kulak gelişimi ve pedagojik farkındalığın birleşimini gerektirir. Doğru yönlendirme ve disiplinli program ile bu süreci güvenle ilerletebilirsiniz. Eryaman’da birebir müzik öğretmenliği hazırlık programı ile teknik seviyeniz yükselir, kulak gelişiminiz güçlenir, sınav özgüveniniz artar ve akademik hedefinize sistemli şekilde ilerlersiniz.'
         }
+    ],
+    testimonials: [
+        {
+            id: 1,
+            name: 'Sudenur 18-19 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Zeynep hocayla 16 yaşımda tanıştım. Yetenek sınavına hazırlanma sürecimde kendisiyle birlikte çalışma fırsatı buldum. Bu süreçte bana yalnızca teknik anlamda değil; müzik teorisi, çalgı çalışması ve sınav psikolojisi açısından da büyük destek oldu. Alanındaki birikimi ve disiplinli yaklaşımı sayesinde sınava hem donanımlı hem de özgüvenli bir şekilde hazırlanmamı sağladı ve sınavı kazanmamda önemli bir rol oynadı. Kendisi, benim için sadece bir öğretmen değil; aynı zamanda bir abla gibi yanımda olan, motivasyonumu ve özgüvenimi geliştirmeme katkı sağlayan çok kıymetli bir rehber oldu.',
+            rating: 5
+        }
     ]
 };
 
