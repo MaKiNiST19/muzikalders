@@ -99,6 +99,13 @@ const pageData = {
             role: 'Veli',
             comment: "Zeynep Hocam ilk okul çağındaki çocuklarınızın gitar ya da piyanoya başlaması aşamasında karşınıza çıkacak en doğru öğretmendir diyebilirim. Malumunuz, çocuklar çabuk sıkılırlar..(Benim kızımın olimpiyat madalyası var bu konuda😅) Zeynep Hocam derslerde ( ki çok kez şahit oldum :) sıkılan öğrenciyi tekrar motive etmek için hep bir eğlence katar. Dersin her dk'sı verimli geçsin ister. Ayrıca derste miniklere hayata dair bir anne bir abla gibi hayata dair tavsiyelerde de bulunur ki...inanın enstrüman dersi kadar değerlidir. Zeynep Hocamla tanışınca miniğinizi emanet edecek en doğru yerde olduğunuzu anlarsınız🙏🏻 Not: Based on a true story 😄",
             rating: 5
+        },
+        {
+            id: 10,
+            name: 'Enes Bey 30 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Merhabalar, yaşım 30 Zeynep hocayla armut uygulaması üzerinden tanıştım. Bu tanışmada kendisinin ilgilisi sayesinde gerçekleşti, başvurum üzerinden bana ulaşarak dönüş yaptı ve özverisi ile hızlıca derslerimize başladık. Alanın da yetkin ve her geçen gün üstüne koyduğuna şahit oluyorum, işini böyle severek yapan bir hocanın öğrenciside kendi üzerine düşen özveriyi göstermesi halinde ilerleme kaydetmesi kaçınılmaz. Teşekkür ederim hocam.🙏',
+            rating: 5
         }
     ]
 };

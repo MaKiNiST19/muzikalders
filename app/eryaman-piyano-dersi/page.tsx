@@ -142,6 +142,13 @@ const pageData = {
             role: 'Öğrenci',
             comment: 'Zeynep hocam çok tatlı ve anlayışlı,  yaş olarak  biraz geç kaldım ve artık benden olmaz derken bile bana inandı, şimdi piyano çalmaya başladım. Bir çocukluk hayalimi gerçekleştirdim Zeynep hocam sayesinde.Özverili anlatılışı ve sabrı  için ayrıca teşekkür ediyorum.🥰🌺',
             rating: 5
+        },
+        {
+            id: 10,
+            name: 'Enes Bey 30 yaş öğrenci',
+            role: 'Öğrenci',
+            comment: 'Merhabalar, yaşım 30 Zeynep hocayla armut uygulaması üzerinden tanıştım. Bu tanışmada kendisinin ilgilisi sayesinde gerçekleşti, başvurum üzerinden bana ulaşarak dönüş yaptı ve özverisi ile hızlıca derslerimize başladık. Alanın da yetkin ve her geçen gün üstüne koyduğuna şahit oluyorum, işini böyle severek yapan bir hocanın öğrenciside kendi üzerine düşen özveriyi göstermesi halinde ilerleme kaydetmesi kaçınılmaz. Teşekkür ederim hocam.🙏',
+            rating: 5
         }
     ]
 };

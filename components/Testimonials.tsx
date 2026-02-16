@@ -71,6 +71,13 @@ const realTestimonials: TestimonialItem[] = [
         role: 'Öğrenci',
         comment: 'Zeynep hocayla 16 yaşımda tanıştım. Yetenek sınavına hazırlanma sürecimde kendisiyle birlikte çalışma fırsatı buldum. Bu süreçte bana yalnızca teknik anlamda değil; müzik teorisi, çalgı çalışması ve sınav psikolojisi açısından da büyük destek oldu. Alanındaki birikimi ve disiplinli yaklaşımı sayesinde sınava hem donanımlı hem de özgüvenli bir şekilde hazırlanmamı sağladı ve sınavı kazanmamda önemli bir rol oynadı. Kendisi, benim için sadece bir öğretmen değil; aynı zamanda bir abla gibi yanımda olan, motivasyonumu ve özgüvenimi geliştirmeme katkı sağlayan çok kıymetli bir rehber oldu.',
         rating: 5
+    },
+    {
+        id: 10,
+        name: 'Enes Bey 30 yaş öğrenci',
+        role: 'Öğrenci',
+        comment: 'Merhabalar, yaşım 30 Zeynep hocayla armut uygulaması üzerinden tanıştım. Bu tanışmada kendisinin ilgilisi sayesinde gerçekleşti, başvurum üzerinden bana ulaşarak dönüş yaptı ve özverisi ile hızlıca derslerimize başladık. Alanın da yetkin ve her geçen gün üstüne koyduğuna şahit oluyorum, işini böyle severek yapan bir hocanın öğrenciside kendi üzerine düşen özveriyi göstermesi halinde ilerleme kaydetmesi kaçınılmaz. Teşekkür ederim hocam.🙏',
+        rating: 5
     }
 ];
 
