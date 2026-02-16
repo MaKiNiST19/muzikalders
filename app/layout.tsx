@@ -15,8 +15,15 @@ export const metadata: Metadata = {
   title: "Müzikal Ders | Eryaman Özel Müzik Dersi",
   description: "Ankara Eryaman bölgesinde piyano, gitar, yan flüt ve şan dersleri.",
   icons: {
-    icon: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' },
+    ],
   },
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
